@@ -32,13 +32,15 @@ DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
 # > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-KEYWORD,-spotify-com
+# > 因为Spotify有地区检测 所以注释掉用自己的分流 避免乱跳ip
+#USER-AGENT,Spotify*
+#DOMAIN-SUFFIX,pscdn.co
+#DOMAIN-SUFFIX,scdn.co
+#DOMAIN-SUFFIX,spotify.com
+#DOMAIN-SUFFIX,spoti.fi
+#DOMAIN-KEYWORD,spotify.com
+#DOMAIN-KEYWORD,-spotify-com
+
 # > TIDAL
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
