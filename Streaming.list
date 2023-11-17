@@ -43,8 +43,9 @@ DOMAIN-KEYWORD,-spotify-com
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
 # > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,YouTubeMusic*
+# > 因为YouTubeMusic会ban各种ip 所以注释掉然后自己手动分流
+#USER-AGENT,com.google.ios.youtubemusic*
+#USER-AGENT,YouTubeMusic*
 
 # (Podcast)
 # > Himalaya
